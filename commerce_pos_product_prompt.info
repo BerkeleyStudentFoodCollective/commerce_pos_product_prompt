@@ -1,0 +1,6 @@
+name = Commerce POS Product Prompt
+description = Allows for rules-based prompting to add a product to POS orders.
+package = Commerce POS
+dependencies[] = commerce_pos_product
+dependencies[] = commerce_pos_order
+core = 7.x

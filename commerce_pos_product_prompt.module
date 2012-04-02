@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Commerce POS product prompt functions.
+ */
+
+/**
+ * Implements hook_commerce_pos_preload().
+ */
+function commerce_pos_product_prompt_commerce_pos_preload() {
+    drupal_add_js(drupal_get_path('module', 'commerce_pos_product_prompt') . '/commerce_pos_product_prompt.js', array('weight' => 100));
+}
